@@ -84,7 +84,7 @@ public class BaseClass {
 
 	 }
 
-	@AfterMethod
+
 	/*
 	 * public void tearDown(ITestResult result) throws IOException { if
 	 * (result.getStatus() == ITestResult.FAILURE) {
@@ -110,7 +110,8 @@ public class BaseClass {
 	/*
 	 * @AfterTest public void endReport() { extent.flush(); }
 	 */
-
+		
+	
 	public static String getScreenshot(WebDriver driver, String screenshotName) throws IOException {
 
 		String dateFormat = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());

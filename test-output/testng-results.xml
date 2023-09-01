@@ -2,39 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-29T14:06:38 IST" name="Default suite" finished-at="2023-08-29T14:06:49 IST" duration-ms="10376">
+  <suite started-at="2023-09-01T19:44:56 IST" name="Default suite" finished-at="2023-09-01T19:45:13 IST" duration-ms="17556">
     <groups>
     </groups>
-    <test started-at="2023-08-29T14:06:38 IST" name="Default test" finished-at="2023-08-29T14:06:49 IST" duration-ms="10376">
-      <class name="TestCases.VerifyAddToCartPriceTestCase">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.VerifyAddToCartPriceTestCase@32502377]" started-at="2023-08-29T14:06:38 IST" name="setup" finished-at="2023-08-29T14:06:39 IST" duration-ms="268" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="launchURL()[pri:0, instance:TestCases.VerifyAddToCartPriceTestCase@32502377]" started-at="2023-08-29T14:06:39 IST" name="launchURL" finished-at="2023-08-29T14:06:45 IST" duration-ms="6196" status="PASS">
+    <test started-at="2023-09-01T19:44:56 IST" name="Default test" finished-at="2023-09-01T19:45:13 IST" duration-ms="17556">
+      <class name="TestCases.LoginTestCase">
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:TestCases.LoginTestCase@1de5f259]" started-at="2023-09-01T19:44:56 IST" name="launchURL" finished-at="2023-09-01T19:45:02 IST" duration-ms="5819" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchURL -->
-        <test-method signature="verifycartprice()[pri:0, instance:TestCases.VerifyAddToCartPriceTestCase@32502377]" started-at="2023-08-29T14:06:45 IST" name="verifycartprice" finished-at="2023-08-29T14:06:48 IST" duration-ms="3498" status="PASS">
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:TestCases.LoginTestCase@1de5f259]" started-at="2023-09-01T19:45:02 IST" name="launchURL" finished-at="2023-09-01T19:45:06 IST" duration-ms="4707" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifycartprice -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.VerifyAddToCartPriceTestCase@32502377]" started-at="2023-08-29T14:06:48 IST" name="tearDown" finished-at="2023-08-29T14:06:48 IST" duration-ms="12" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifycartprice status=SUCCESS method=VerifyAddToCartPriceTestCase.verifycartprice()[pri:0, instance:TestCases.VerifyAddToCartPriceTestCase@32502377] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- launchURL -->
+        <test-method signature="Login()[pri:0, instance:TestCases.LoginTestCase@1de5f259]" started-at="2023-09-01T19:45:06 IST" name="Login" finished-at="2023-09-01T19:45:13 IST" duration-ms="6799" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:TestCases.VerifyAddToCartPriceTestCase@32502377]" started-at="2023-08-29T14:06:48 IST" name="endReport" finished-at="2023-08-29T14:06:49 IST" duration-ms="374" status="PASS">
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="driverclose()[pri:0, instance:TestCases.LoginTestCase@1de5f259]" started-at="2023-09-01T19:45:13 IST" name="driverclose" finished-at="2023-09-01T19:45:13 IST" duration-ms="185" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- endReport -->
-      </class> <!-- TestCases.VerifyAddToCartPriceTestCase -->
+        </test-method> <!-- driverclose -->
+      </class> <!-- TestCases.LoginTestCase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

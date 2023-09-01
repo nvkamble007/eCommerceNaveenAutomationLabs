@@ -22,6 +22,7 @@ public class LoginTestCase extends BaseClass {
 		lpo.enteremail().sendKeys(constant.email);
 		lpo.enterpass().sendKeys(constant.password);
 		lpo.clickonlogin().click();
+		
 
 	}
 

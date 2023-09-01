@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-29T14:06:38 IST" name="Default suite" finished-at="2023-08-29T14:06:49 IST" duration-ms="10376">
+    <groups>
+    </groups>
+    <test started-at="2023-08-29T14:06:38 IST" name="Default test" finished-at="2023-08-29T14:06:49 IST" duration-ms="10376">
+      <class name="TestCases.VerifyAddToCartPriceTestCase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.VerifyAddToCartPriceTestCase@32502377]" started-at="2023-08-29T14:06:38 IST" name="setup" finished-at="2023-08-29T14:06:39 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:TestCases.VerifyAddToCartPriceTestCase@32502377]" started-at="2023-08-29T14:06:39 IST" name="launchURL" finished-at="2023-08-29T14:06:45 IST" duration-ms="6196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="verifycartprice()[pri:0, instance:TestCases.VerifyAddToCartPriceTestCase@32502377]" started-at="2023-08-29T14:06:45 IST" name="verifycartprice" finished-at="2023-08-29T14:06:48 IST" duration-ms="3498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycartprice -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.VerifyAddToCartPriceTestCase@32502377]" started-at="2023-08-29T14:06:48 IST" name="tearDown" finished-at="2023-08-29T14:06:48 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifycartprice status=SUCCESS method=VerifyAddToCartPriceTestCase.verifycartprice()[pri:0, instance:TestCases.VerifyAddToCartPriceTestCase@32502377] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:TestCases.VerifyAddToCartPriceTestCase@32502377]" started-at="2023-08-29T14:06:48 IST" name="endReport" finished-at="2023-08-29T14:06:49 IST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- TestCases.VerifyAddToCartPriceTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
